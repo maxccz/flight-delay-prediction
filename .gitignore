@@ -1,0 +1,12 @@
+raw/
+processed/
+data/
+*.parquet
+*.csv
+*.zip
+*.archive
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+kaggle.json
