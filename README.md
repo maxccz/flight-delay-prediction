@@ -18,8 +18,8 @@ The three pinned versions were verified in the November 10 baseline runtime.
 
 1. Download `setup.ipynb` and `Experiments.ipynb` from this repository and open them in Google Colab.
 2. Install the dependencies above, then run `setup.ipynb` from top to bottom to download and process the data. Authorize your own Drive mount when prompted.
-3. In the `Experiments.ipynb` runtime, install the same dependencies and run the first code cell to mount Drive and load the processed files.
-4. Run the monthly split, dummy baseline, and logistic regression cells below the monthly-split note, in that order. The earlier experiment cells contain the original split results.
+3. In the `Experiments.ipynb` runtime, install the same dependencies. Run the cell beginning `# Load the monthly partitions saved by setup.ipynb.` to mount Drive and load the three saved partitions. Run setup's final cell first so these files exist.
+4. Run the dummy baseline and logistic regression cells immediately below it, in that order. The earlier experiment cells contain the original split results and can be skipped.
 
 ## Baseline results
 
