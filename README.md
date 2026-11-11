@@ -12,7 +12,7 @@ The three pinned versions were verified in the November 10 baseline runtime.
 
 ## Data access
 
-`setup.ipynb` downloads [US Flight Delays 2025 - BTS On-Time Performance](https://www.kaggle.com/datasets/a7madmostafa/us-flight-delays-2025-bts-on-time-performance) from Kaggle and saves files under `/content/drive/MyDrive/ML Final` in your own Google Drive. You do not need access to the team's shared folder. Data are not included in this repository. If you change the folder location, update the paths in both notebooks.
+`setup.ipynb` downloads [US Flight Delays 2025 - BTS On-Time Performance](https://www.kaggle.com/datasets/a7madmostafa/us-flight-delays-2025-bts-on-time-performance) from Kaggle and saves files under `/content/drive/MyDrive/ML Final` in your own Google Drive. The final setup cell saves `train_monthly.parquet`, `validation_monthly.parquet`, and `test_monthly.parquet` in the `processed` folder. You do not need access to the team's shared folder. Data are not included in this repository. If you change the folder location, update the paths in both notebooks.
 
 ## Run order
 
